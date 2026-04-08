@@ -56,7 +56,7 @@ Wants=network-online.target
 What=10.100.0.5:/31612341/2a6a1615-f3df-4584-9bf2-e6dbc8d619f8 
 Where=/mnt/share
 Type=nfs
-Options=nconnect=8,rw
+Options=nconnect=8,ro
 TimeoutSec=30
 
 [Install]
